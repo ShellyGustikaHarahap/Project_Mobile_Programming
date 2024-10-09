@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'cell_detail_page.dart';  // Mengimpor halaman detail sel.
+import 'materi_page.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -107,6 +108,11 @@ class _MyHomePageState extends State<MyHomePage> {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => const CellDetailPage()),
+          );
+        } else if (index == 2) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const MateriPage()),
           );
         }
       },
