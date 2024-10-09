@@ -165,7 +165,7 @@ class _MateriPageState extends State<MateriPage> {
                               ],
                             ),
                             child: Image.asset(
-                              'assets/logo_jenis.png',  // Mengganti jalur dan nama file gambar
+                              'assets/logo_fotosintesis.png',  // Mengganti jalur dan nama file gambar
                               fit: BoxFit.contain,  // Mengatur cara gambar ditampilkan
                             ),
                           ),
