@@ -53,7 +53,7 @@ class _MateriPageState extends State<MateriPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'STUDY MATE BIOLOGI - SEL',  // Judul aplikasi
+          'STUDY MATE BIOLOGI - FOTOSINTESIS',  // Judul aplikasi
           style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.bold,
@@ -117,7 +117,7 @@ class _MateriPageState extends State<MateriPage> {
                             ],
                           ),
                           child: Image.asset(
-                            'assets/logo_sel.png',  // Mengganti jalur dan nama file gambar
+                            'assets/logo_materi.png',  // Mengganti jalur dan nama file gambar
                             fit: BoxFit.contain,  // Mengatur cara gambar ditampilkan
                           ),
                         ),
